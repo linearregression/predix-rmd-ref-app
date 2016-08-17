@@ -116,7 +116,7 @@ A service to help create sample data in Predix Asset.  Upload a spreadsheet of d
   An Analytic Microservice framework that receives Orchestration requests, resolves data and computes results.  The analytics can be in the cloud, streaming analytics, against near-data datasources (hadoop, etc), or also at the edge (on Machines outside the cloud).
 
 ###[FDH Datahandler Service](https://github.com/predixdev/fdh-router-service/tree/master#fdh-router-service)
-  The Federated Data Handler framework retrieves data from any Datasource using a simple Get or Put API.  The Analytic framework leverages it to retrieve data and store results. FDH can help manage data Get/Put requests that are from distributed, near-data, relational db, public internet, in a file, via other Rest APIs and also at the Edge (on Machines outside the cloud).
+  The Federated Data Handler (DataExchange) framework retrieves data from any Datasource using a simple Get or Put API.  The Analytic framework leverages it to retrieve data and store results. DataExchange can help manage data Get/Put requests that are from distributed, near-data, relational db, public internet, in a file, via other Rest APIs and also at the Edge (on Machines outside the cloud).
 
 ##Asset Model
 
